@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+    <title>Email Newsletter Cyberhawkz</title>
+</head>
+
+<body style="background-color: grey;">
+    <table align="center" style="max-width: 602px;
+     width: 100%; 
+     background-color: black; 
+     height: 100%;">
+
+        <tr>
+            <td align="center" style=" background-color: black ;
+            background-image: url(Cyberhawkz.png); 
+            padding: 30px 30px; 
+            background-repeat: no-repeat;
+            background-position: center;">
+            </td>
+
+            <table align="center" style="background-image: url(background1.jpg);
+            background-size: cover;
+            height: 100%;
+            max-width: 602px;
+            display: block;
+            margin: auto;">
+                <tbody style=" height: 100%;
+                max-width: 602px;
+                display: block;
+                margin: auto;">
+
+                    <tr class="table-rows" align="center">
+                        <td style="font-size: min(2.5vw,30px);
+                        padding-top: 20px;
+                        color: antiquewhite;
+                        font-family: 'Tiro Gurmukhi', serif; " align="center">--------&#9734; NEWSLETTER &#9734--------
+                        </td>
+                    </tr>
+
+                    <tr class="table-rows" align="center">
+                        <td class="table-rows" align="center">
+                            <div class="flip-card" align="center">
+                                <div class="flip-card-inner" align="center">
+                                    <table align="center" align="center" class="table-rows">
+                                        <tbody class="table-rows">
+                                            <tr class="table-rows">
+                                                <div class="flip-card-front">
+                                                    <span style="cursor:pointer; 
+                                                        margin-top: 15px; 
+                                                        color:rgb(234, 189, 189)" onclick="flip(event)"
+                                                        class="forgot_pass">Forgot
+                                                        Password ?
+                                                    </span>
+                                                    <td align="center" class="form_data table-rows">
+                                                        <div class="container table-rows" style="margin-top: 34px;">
+                                                            <div class="contactForm" style="width:25vw ;  
+                                                                max-width: 400px; 
+                                                                min-width:20px ;">
+                                                                <form>
+                                                                    <h2 style="color:rgb(234, 189, 189) ;
+                                                                        font-size: min(5.35vw,40px);">
+                                                                        Sign Up</h2>
+                                                                    <div class="inputBox">
+                                                                        <input id="name" type="text" name="Name"
+                                                                            required>
+                                                                        <span>Full Name</span>
+                                                                    </div>
+
+                                                                    <div class="inputBox">
+                                                                        <input id="email" type="email" name="Email"
+                                                                            required>
+                                                                        <span>Email</span>
+                                                                    </div>
+                                                                    <div class="inputBox">
+                                                                        <input id="password" type="password"
+                                                                            name="Password" required>
+                                                                        <span>Password</span>
+                                                                    </div>
+
+                                                                    <div class="inputBox">
+                                                                        <div class="Register" onclick="register()">
+                                                                            Register
+                                                                        </div>
+
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </div>
+
+                                                <div class="flip-card-back" align="center">
+                                                    <span class="forgot_pass" style="cursor:pointer ; 
+                                                        margin-top: 15px; 
+                                                        color:rgb(234, 189, 189)" onclick="flip(event)">Sign up
+                                                    </span>
+                                                    <div class="container" style="margin-top: 15px;">
+                                                        <div class="contactForm" style="width:25vw ;  
+                                                            max-width: 400px; 
+                                                            min-width:20px ;">
+                                                            <form>
+                                                                <h2 style="color:rgb(234, 189, 189) ;
+                                                                    font-size: min(5.35vw,40px);">
+                                                                    Reset Password
+                                                                </h2>
+
+                                                                <div class="inputBox">
+                                                                    <input id="re_email" type="email" name="Email"
+                                                                        required>
+                                                                    <span>Email</span>
+                                                                </div>
+                                                                <div class="inputBox">
+                                                                    <input id="reset_pass" type="password"
+                                                                        name="Password" required>
+                                                                    <span>Password</span>
+                                                                </div>
+                                                                <div class="inputBox">
+                                                                    <input id="re_reset_pass" type="password"
+                                                                        name="retype-Password" required>
+                                                                    <span>Re-Password</span>
+                                                                </div>
+
+                                                                <div class="inputBox">
+                                                                    <div class="Register" onclick="Reset()">Reset</div>
+
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
